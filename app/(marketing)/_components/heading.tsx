@@ -12,11 +12,11 @@ export const Heading = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
 
   return (
-    <div className="max-w-3xl space-y-4">
-      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
+    <div className="max-w-4xl space-y-4">
+      <h1 className="text-3xl md:text-5xl font-bold">
         Your Ideas, Documents, & Plans. Unified. Welcome to <span className="underline">IELTS 101 Notion</span>
       </h1>
-      <h3 className="text-base sm:text-xl md:text-2xl font-medium">
+      <h3 className="text-base mt-4 md:mt-12 sm:text-xl md:text-2xl font-medium">
         Notion is the connected workspace where <br />
         better, faster work happens.
       </h3>

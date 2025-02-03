@@ -28,9 +28,9 @@ const MainLayout = ({
   }
 
   return ( 
-    <div className="h-full flex dark:bg-black/90">
+    <div className="h-full flex dark:bg-[#141414] no-scrollbar">
       <Navigation />
-      <main className="flex-1 h-full overflow-y-auto overflow-x-hidden">
+      <main className="flex-1 h-full overflow-y-auto overflow-x-hidden no-scrollbar">
         <SearchCommand />
         {children}
       </main>

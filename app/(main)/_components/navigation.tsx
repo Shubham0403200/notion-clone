@@ -133,11 +133,11 @@ export const Navigation = () => {
   };
 
   return (
-    <>
+    <div className='dark:bg-[#141414]'>
       <aside
         ref={sidebarRef}
         className={cn(
-          "group/sidebar h-full bg-secondary overflow-y-auto relative flex w-60 flex-col z-[99999]",
+          "group/sidebar h-full bg-secondary dark:bg-[#202020] overflow-y-auto relative flex w-60 flex-col z-[99999]",
           isResetting && "transition-all ease-in-out duration-300",
           isMobile && "w-0"
         )}
@@ -215,6 +215,6 @@ export const Navigation = () => {
           </nav>
         )}
       </div>
-    </>
+    </div>
   )
 }

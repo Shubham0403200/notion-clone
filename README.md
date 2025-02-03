@@ -1,4 +1,4 @@
-# Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
+# Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind made by Shubham Awasthi
 
 This is a repository for Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind 
 
